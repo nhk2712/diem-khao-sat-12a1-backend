@@ -1,0 +1,25 @@
+{
+  "name": "diem-khao-sat-12a1-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhk2712/diem-khao-sat-12a1-backend.git"
+  },
+  "author": "Khanh Nguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nhk2712/diem-khao-sat-12a1-backend/issues"
+  },
+  "homepage": "https://github.com/nhk2712/diem-khao-sat-12a1-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^5.0.0"
+  }
+}
