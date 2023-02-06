@@ -10,6 +10,9 @@ function AppRoute(app) {
         .get(async function (req, res) {
             res.send(await StudentModel(req.params.studentId, req.params.dob))
         })
+
+    app.route("*")
+        .get((req, res) => { res.send({ msg: "Not Found" }) })
 }
 
 module.exports = AppRoute;
